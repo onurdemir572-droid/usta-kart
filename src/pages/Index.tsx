@@ -41,6 +41,7 @@ const sampleMasters: Master[] = [
   {
     id: "2",
     name: "Mehmet Kara",
+    listingTitle: "Usta & İş Gücü",
     title: "Tesisatçı",
     avatar: avatar2,
     coverImage: cover2,
