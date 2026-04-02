@@ -24,7 +24,7 @@ const sampleMasters: Master[] = [
     rating: 4.8,
     reviewCount: 124,
     experience: "12 yıl",
-    bio: "12 yıllık tecrübemle iç ve dış cephe boyama, dekoratif boya uygulamaları ve alçı sıva işlerinizde profesyonel hizmet sunuyorum. Müşteri memnuniyeti odaklı çalışıyorum.",
+    bio: "İç ve dış cephe boya, dekoratif boya, alçı sıva, kartonpiyer ve duvar kağıdı işleriniz titizlikle yapılır. Ev, ofis ve işyeri boyama hizmeti verilir. Renk danışmanlığı ile mekanlarınıza yeni bir görünüm kazandırıyoruz.",
     references: [
       {
         description: "Kadıköy'de 3+1 dairenin komple iç boyaması ve dekoratif duvar uygulaması yapıldı. Müşteri çok memnun kaldı.",
