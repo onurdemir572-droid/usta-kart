@@ -42,8 +42,8 @@ export function MasterCard({ master }: MasterCardProps) {
 
         {/* Info */}
         <div className="pt-10 px-4 pb-4">
-          <h3 className="font-display text-lg font-semibold text-card-foreground">{master.name}</h3>
-          <p className="text-sm text-muted-foreground mt-0.5">{master.title}</p>
+          <h3 className="font-display text-lg font-semibold text-card-foreground">{master.listingTitle}</h3>
+          <p className="text-sm font-medium text-primary mt-0.5">{master.title}</p>
 
           {/* Description on card */}
           <p className="text-xs text-muted-foreground mt-2 line-clamp-2 leading-relaxed">
