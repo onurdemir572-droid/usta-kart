@@ -76,7 +76,7 @@ const sampleMasters: Master[] = [
     rating: 4.9,
     reviewCount: 156,
     experience: "15 yıl",
-    bio: "Elektrik tesisatı, aydınlatma sistemleri ve akıllı ev çözümleri konusunda 15 yıllık deneyimle profesyonel hizmet sunuyorum.",
+    bio: "Elektrik tesisatı, aydınlatma montajı, sigorta panosu kurulumu, güvenlik kamerası ve akıllı ev sistemleri işleriniz yapılır. Arıza tespiti, kablo çekimi, topraklama ve priz/anahtar montajı hizmeti verilir.",
     references: [
       {
         description: "Çankaya'da villa tipi evin komple elektrik tesisatı ve akıllı ev sistemi kurulumu.",
