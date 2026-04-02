@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { MapPin, Star, Wrench } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
-import { MasterDetailModal } from "./MasterDetailModal";
+import { MasterListingModal } from "./MasterListingModal";
 import type { Master } from "@/types/master";
 
 interface MasterCardProps {
@@ -45,6 +45,11 @@ export function MasterCard({ master }: MasterCardProps) {
           <h3 className="font-display text-lg font-semibold text-card-foreground">{master.name}</h3>
           <p className="text-sm text-muted-foreground mt-0.5">{master.title}</p>
 
+          {/* Description on card */}
+          <p className="text-xs text-muted-foreground mt-2 line-clamp-2 leading-relaxed">
+            {master.bio}
+          </p>
+
           <div className="flex items-center gap-1 mt-2 text-muted-foreground">
             <MapPin className="w-3.5 h-3.5" />
             <span className="text-xs">{master.district}, {master.city}</span>
@@ -66,7 +71,7 @@ export function MasterCard({ master }: MasterCardProps) {
         </div>
       </button>
 
-      <MasterDetailModal master={master} open={open} onOpenChange={setOpen} />
+      <MasterListingModal master={master} open={open} onOpenChange={setOpen} />
     </>
   );
 }
