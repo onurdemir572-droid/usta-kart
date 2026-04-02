@@ -24,7 +24,7 @@ const sampleMasters: Master[] = [
     rating: 4.8,
     reviewCount: 124,
     experience: "12 yıl",
-    bio: "12 yıllık tecrübemle iç ve dış cephe boyama, dekoratif boya uygulamaları ve alçı sıva işlerinizde profesyonel hizmet sunuyorum. Müşteri memnuniyeti odaklı çalışıyorum.",
+    bio: "İç ve dış cephe boya, dekoratif boya, alçı sıva, kartonpiyer ve duvar kağıdı işleriniz titizlikle yapılır. Ev, ofis ve işyeri boyama hizmeti verilir. Renk danışmanlığı ile mekanlarınıza yeni bir görünüm kazandırıyoruz.",
     references: [
       {
         description: "Kadıköy'de 3+1 dairenin komple iç boyaması ve dekoratif duvar uygulaması yapıldı. Müşteri çok memnun kaldı.",
@@ -51,7 +51,7 @@ const sampleMasters: Master[] = [
     rating: 4.6,
     reviewCount: 89,
     experience: "8 yıl",
-    bio: "Su tesisatı, kalorifer ve doğalgaz tesisatı konularında 8 yıldır güvenilir hizmet veriyorum. Acil durumlar için 7/24 ulaşabilirsiniz.",
+    bio: "Su tesisatı, petek temizliği, kalorifer tamiri, doğalgaz tesisatı ve boru döşeme işleriniz yapılır. Tıkanıklık açma, sızıntı tespiti, musluk montajı ve banyo tadilatı hizmeti verilir. Acil durumlar için 7/24 hizmetinizdeyiz.",
     references: [
       {
         description: "Beşiktaş'ta komple banyo renovasyonu ve tesisat yenilemesi yapıldı.",
@@ -76,7 +76,7 @@ const sampleMasters: Master[] = [
     rating: 4.9,
     reviewCount: 156,
     experience: "15 yıl",
-    bio: "Elektrik tesisatı, aydınlatma sistemleri ve akıllı ev çözümleri konusunda 15 yıllık deneyimle profesyonel hizmet sunuyorum.",
+    bio: "Elektrik tesisatı, aydınlatma montajı, sigorta panosu kurulumu, güvenlik kamerası ve akıllı ev sistemleri işleriniz yapılır. Arıza tespiti, kablo çekimi, topraklama ve priz/anahtar montajı hizmeti verilir.",
     references: [
       {
         description: "Çankaya'da villa tipi evin komple elektrik tesisatı ve akıllı ev sistemi kurulumu.",
