@@ -1,6 +1,7 @@
 export interface Master {
   id: string;
   name: string;
+  listingTitle: string;
   title: string;
   avatar: string;
   coverImage: string;

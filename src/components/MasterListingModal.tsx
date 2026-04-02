@@ -41,8 +41,9 @@ export function MasterListingModal({ master, open, onOpenChange }: Props) {
                 <img src={master.avatar} alt={master.name} className="w-full h-full object-cover" />
               </div>
               <div className="flex-1 min-w-0">
-                <h2 className="font-display text-lg font-bold text-primary-foreground leading-tight">{master.name}</h2>
-                <p className="text-xs text-primary-foreground/80">{master.title}</p>
+                <h2 className="font-display text-lg font-bold text-primary-foreground leading-tight">{master.listingTitle}</h2>
+                <p className="text-xs text-primary-foreground/90 font-medium">{master.title}</p>
+                <p className="text-xs text-primary-foreground/70">{master.name}</p>
               </div>
               <div className="flex items-center gap-1 bg-card/90 backdrop-blur-sm rounded-full px-2 py-1">
                 <Star className="w-3.5 h-3.5 fill-primary text-primary" />
