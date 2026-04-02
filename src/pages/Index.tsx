@@ -51,7 +51,7 @@ const sampleMasters: Master[] = [
     rating: 4.6,
     reviewCount: 89,
     experience: "8 yıl",
-    bio: "Su tesisatı, kalorifer ve doğalgaz tesisatı konularında 8 yıldır güvenilir hizmet veriyorum. Acil durumlar için 7/24 ulaşabilirsiniz.",
+    bio: "Su tesisatı, petek temizliği, kalorifer tamiri, doğalgaz tesisatı ve boru döşeme işleriniz yapılır. Tıkanıklık açma, sızıntı tespiti, musluk montajı ve banyo tadilatı hizmeti verilir. Acil durumlar için 7/24 hizmetinizdeyiz.",
     references: [
       {
         description: "Beşiktaş'ta komple banyo renovasyonu ve tesisat yenilemesi yapıldı.",
