@@ -26,6 +26,14 @@ const sampleMasters: Master[] = [
     reviewCount: 124,
     experience: "12 yıl",
     bio: "İç ve dış cephe boya, dekoratif boya, alçı sıva, kartonpiyer ve duvar kağıdı işleriniz titizlikle yapılır. Ev, ofis ve işyeri boyama hizmeti verilir. Renk danışmanlığı ile mekanlarınıza yeni bir görünüm kazandırıyoruz.",
+    reviews: [
+      { id: "r1", author: "Zeynep K.", avatar: "", rating: 5, comment: "Harika bir iş çıkardı, çok titiz ve temiz çalışıyor. Kesinlikle tavsiye ederim!", date: "2024-12-15" },
+      { id: "r2", author: "Ali M.", avatar: "", rating: 4, comment: "İşini zamanında ve düzgün yaptı. Fiyat biraz yüksek ama kaliteli iş.", date: "2024-11-20" },
+      { id: "r3", author: "Fatma S.", avatar: "", rating: 5, comment: "Dekoratif boya uygulaması mükemmeldi. Evin havası tamamen değişti!", date: "2024-10-05" },
+      { id: "r4", author: "Murat D.", avatar: "", rating: 3, comment: "İş kalitesi iyi ama randevu saatine biraz geç geldi.", date: "2024-09-12" },
+      { id: "r5", author: "Ayşe T.", avatar: "", rating: 5, comment: "Kartonpiyer ve alçı sıva işlerini çok güzel yaptı. Eline sağlık!", date: "2024-08-28" },
+      { id: "r6", author: "Emre B.", avatar: "", rating: 1, comment: "Maalesef beklediğim kalitede değildi, iletişim konusunda sıkıntı yaşadım.", date: "2024-07-10" },
+    ],
     references: [
       {
         description: "Kadıköy'de 3+1 dairenin komple iç boyaması ve dekoratif duvar uygulaması yapıldı. Müşteri çok memnun kaldı.",
