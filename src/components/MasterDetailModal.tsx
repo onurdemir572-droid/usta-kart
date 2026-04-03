@@ -29,6 +29,53 @@ interface Props {
   onOpenChange: (open: boolean) => void;
 }
 
+function ReferencesSection({ references }: { references: Master["references"] }) {
+  const [expanded, setExpanded] = useState(false);
+  const visibleCount = expanded ? references.length : 1;
+
+  return (
+    <div>
+      <h3 className="text-sm font-semibold text-foreground mb-3 flex items-center gap-2">
+        <Star className="w-4 h-4 text-primary" />
+        Referanslar ({references.length})
+      </h3>
+      <div className="space-y-3">
+        {references.slice(0, visibleCount).map((ref, i) => (
+          <div key={i} className="flex gap-3 p-3 rounded-lg bg-secondary/50 border border-border">
+            <img
+              src={ref.image}
+              alt="Referans"
+              className="w-20 h-20 rounded-lg object-cover flex-shrink-0"
+              loading="lazy"
+            />
+            <p className="text-sm text-muted-foreground leading-relaxed">{ref.description}</p>
+          </div>
+        ))}
+      </div>
+      {references.length > 1 && (
+        <Button
+          variant="ghost"
+          size="sm"
+          className="w-full mt-2 gap-1 text-muted-foreground"
+          onClick={() => setExpanded(!expanded)}
+        >
+          {expanded ? (
+            <>
+              <ChevronUp className="w-4 h-4" />
+              Gizle
+            </>
+          ) : (
+            <>
+              <ChevronDown className="w-4 h-4" />
+              Tümünü Göster ({references.length - 1} daha)
+            </>
+          )}
+        </Button>
+      )}
+    </div>
+  );
+}
+
 export function MasterDetailModal({ master, open, onOpenChange }: Props) {
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
