@@ -38,59 +38,6 @@ const sampleMasters: Master[] = [
       { name: "Sertifika.jpg", type: "image", url: "#" },
     ],
   },
-  {
-    id: "2",
-    name: "Mehmet Kara",
-    listingTitle: "Usta & İş Gücü",
-    title: "Tesisatçı",
-    avatar: avatar2,
-    coverImage: cover2,
-    services: ["Su Tesisatı", "Kalorifer", "Doğalgaz", "Petek Temizliği"],
-    city: "İstanbul",
-    district: "Beşiktaş",
-    phone: "0533 987 65 43",
-    email: "mehmet@usta.com",
-    rating: 4.6,
-    reviewCount: 89,
-    experience: "8 yıl",
-    bio: "Su tesisatı, petek temizliği, kalorifer tamiri, doğalgaz tesisatı ve boru döşeme işleriniz yapılır. Tıkanıklık açma, sızıntı tespiti, musluk montajı ve banyo tadilatı hizmeti verilir. Acil durumlar için 7/24 hizmetinizdeyiz.",
-    references: [
-      {
-        description: "Beşiktaş'ta komple banyo renovasyonu ve tesisat yenilemesi yapıldı.",
-        image: reference1,
-      },
-    ],
-    documents: [
-      { name: "Tesisat Belgesi.pdf", type: "pdf", url: "#" },
-    ],
-  },
-  {
-    id: "3",
-    name: "Can Demir",
-    listingTitle: "Usta & İş Gücü",
-    title: "Elektrik Ustası",
-    avatar: avatar3,
-    coverImage: cover3,
-    services: ["Elektrik Tesisatı", "Aydınlatma", "Güvenlik Sistemleri", "Akıllı Ev"],
-    city: "Ankara",
-    district: "Çankaya",
-    phone: "0535 456 78 90",
-    email: "can@usta.com",
-    rating: 4.9,
-    reviewCount: 156,
-    experience: "15 yıl",
-    bio: "Elektrik tesisatı, aydınlatma montajı, sigorta panosu kurulumu, güvenlik kamerası ve akıllı ev sistemleri işleriniz yapılır. Arıza tespiti, kablo çekimi, topraklama ve priz/anahtar montajı hizmeti verilir.",
-    references: [
-      {
-        description: "Çankaya'da villa tipi evin komple elektrik tesisatı ve akıllı ev sistemi kurulumu.",
-        image: reference1,
-      },
-    ],
-    documents: [
-      { name: "Elektrik Yetki Belgesi.pdf", type: "pdf", url: "#" },
-      { name: "Akıllı Ev Broşürü.pdf", type: "pdf", url: "#" },
-    ],
-  },
 ];
 
 export default function Index() {
