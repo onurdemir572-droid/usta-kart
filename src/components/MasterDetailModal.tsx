@@ -94,27 +94,9 @@ export function MasterDetailModal({ master, open, onOpenChange }: Props) {
             </div>
           </div>
 
-          {/* References */}
+          {/* References - Collapsible */}
           {master.references.length > 0 && (
-            <div>
-              <h3 className="text-sm font-semibold text-foreground mb-3 flex items-center gap-2">
-                <Star className="w-4 h-4 text-primary" />
-                Referanslar
-              </h3>
-              <div className="space-y-3">
-                {master.references.map((ref, i) => (
-                  <div key={i} className="flex gap-3 p-3 rounded-lg bg-secondary/50 border border-border">
-                    <img
-                      src={ref.image}
-                      alt="Referans"
-                      className="w-20 h-20 rounded-lg object-cover flex-shrink-0"
-                      loading="lazy"
-                    />
-                    <p className="text-sm text-muted-foreground leading-relaxed">{ref.description}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
+            <ReferencesSection references={master.references} />
           )}
 
           {/* Documents */}
