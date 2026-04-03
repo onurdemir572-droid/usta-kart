@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { MapPin, Star, Wrench } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
-import { MasterListingModal } from "./MasterListingModal";
+import { MasterDetailModal } from "./MasterDetailModal";
 import type { Master } from "@/types/master";
 
 interface MasterCardProps {
@@ -26,13 +26,11 @@ export function MasterCard({ master }: MasterCardProps) {
             loading="lazy"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-foreground/60 to-transparent" />
-          {/* Avatar */}
           <div className="absolute -bottom-8 left-4">
             <div className="w-16 h-16 rounded-full border-[3px] border-card overflow-hidden shadow-md">
               <img src={master.avatar} alt={master.name} className="w-full h-full object-cover" />
             </div>
           </div>
-          {/* Rating */}
           <div className="absolute top-3 right-3 flex items-center gap-1 bg-card/90 backdrop-blur-sm rounded-full px-2 py-1">
             <Star className="w-3.5 h-3.5 fill-primary text-primary" />
             <span className="text-xs font-semibold text-card-foreground">{master.rating}</span>
@@ -44,17 +42,13 @@ export function MasterCard({ master }: MasterCardProps) {
         <div className="pt-10 px-4 pb-4">
           <h3 className="font-display text-lg font-semibold text-card-foreground">{master.listingTitle}</h3>
           <p className="text-sm font-medium text-primary mt-0.5">{master.title}</p>
-
-          {/* Description on card */}
           <p className="text-xs text-muted-foreground mt-2 line-clamp-2 leading-relaxed">
             {master.bio}
           </p>
-
           <div className="flex items-center gap-1 mt-2 text-muted-foreground">
             <MapPin className="w-3.5 h-3.5" />
             <span className="text-xs">{master.district}, {master.city}</span>
           </div>
-
           <div className="flex flex-wrap gap-1.5 mt-3">
             {master.services.slice(0, 3).map((service) => (
               <Badge key={service} variant="secondary" className="text-[10px] px-2 py-0.5 font-medium">
@@ -71,7 +65,7 @@ export function MasterCard({ master }: MasterCardProps) {
         </div>
       </button>
 
-      <MasterListingModal master={master} open={open} onOpenChange={setOpen} />
+      <MasterDetailModal master={master} open={open} onOpenChange={setOpen} />
     </>
   );
 }
