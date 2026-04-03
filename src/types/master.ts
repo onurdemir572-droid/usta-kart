@@ -1,3 +1,12 @@
+export interface Review {
+  id: string;
+  author: string;
+  avatar: string;
+  rating: number;
+  comment: string;
+  date: string;
+}
+
 export interface Master {
   id: string;
   name: string;
@@ -14,6 +23,7 @@ export interface Master {
   reviewCount: number;
   experience: string;
   bio: string;
+  reviews: Review[];
   references: {
     description: string;
     image: string;
