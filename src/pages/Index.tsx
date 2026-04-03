@@ -31,6 +31,14 @@ const sampleMasters: Master[] = [
         description: "Kadıköy'de 3+1 dairenin komple iç boyaması ve dekoratif duvar uygulaması yapıldı. Müşteri çok memnun kaldı.",
         image: reference1,
       },
+      {
+        description: "Beşiktaş'ta 150m² ofis alanının dekoratif boya ve kartonpiyer uygulaması tamamlandı. Modern ve şık bir görünüm elde edildi.",
+        image: reference1,
+      },
+      {
+        description: "Üsküdar'da villa dış cephe boyası ve ısı yalıtım uygulaması yapıldı. Enerji tasarrufu sağlayan kaliteli malzemeler kullanıldı.",
+        image: reference1,
+      },
     ],
     documents: [
       { name: "Ustalık Belgesi.pdf", type: "pdf", url: "#" },
